@@ -4,7 +4,8 @@ class Solution:
             return False
         
         # create character count arrays
-        s1_count =  window_count = {}
+        s1_count  = {}
+        window_count = {}
 
         # count characters in s1
         for char in s1:
@@ -14,7 +15,6 @@ class Solution:
         for i in range(len(s1)):
             char = s2[i]
             window_count[char] = window_count.get(char, 0) + 1
-
 
         # compare the first window
         if window_count == s1_count:
