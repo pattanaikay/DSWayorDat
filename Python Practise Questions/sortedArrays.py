@@ -3,12 +3,17 @@ Given two sorted arrays, write a function that merges them into a single sorted 
 
 """
 
-def mergedSortedArrays(arr1, arr2):
+def mergedSortedArrays(arr1:list, arr2:list)->list:
+    if not arr1:
+        return arr2
+    if not arr2:
+        return arr1
+
     merged_array = []
     m, n = 0, 0
 
     while m < len(arr1) and n < len(arr2):
-        if arr1[m] < arr2[n]:
+        if arr1[m] <= arr2[n]:
             merged_array.append(arr1[m])
             m += 1
         else:

@@ -1,0 +1,14 @@
+Data Structures and Algorithms
+
+Implement a stack using a list in Python.
+Include methods like push(), pop(), peek(), is_empty().
+Implement a queue using a list in Python.
+Include methods like enqueue(), dequeue(), is_empty().
+Write a function to reverse a linked list.
+Implement binary search in Python.
+Write a function to find the factorial of a number using recursion.
+Write a function to check if a string is a palindrome.
+Implement a depth-first search (DFS) algorithm on a graph.
+Implement a breadth-first search (BFS) algorithm on a graph.
+Given a sorted array, find the index of a given element using binary search.
+Write a function to merge two sorted lists.
