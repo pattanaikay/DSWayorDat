@@ -5,7 +5,7 @@ Given an integer array, return the maximum product of any three numbers in the a
 
 import heapq
 
-def maxThreeProduct(num:list):
+def maxThreeProduct(num:list)->int:
     num.sort()
     n = len(num)
     return max(num[n-1] * num[n-2] *num[n-3], num[n-1]* num[0] * num[1])
