@@ -1,0 +1,2 @@
+What is a Binary Search Tree?
+A BST has a special property: for any node, all values in its left subtree are less than the node's value, and all values in its right subtree are greater than the node's value.
